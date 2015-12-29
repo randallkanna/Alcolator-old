@@ -14,6 +14,7 @@
 		B5C65D5A1C31E2C600BE9BA9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5C65D591C31E2C600BE9BA9 /* Images.xcassets */; };
 		B5C65D5D1C31E2C600BE9BA9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5C65D5B1C31E2C600BE9BA9 /* LaunchScreen.xib */; };
 		B5C65D691C31E2C600BE9BA9 /* AlcolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C65D681C31E2C600BE9BA9 /* AlcolatorTests.m */; };
+		B5C65D741C320CF000BE9BA9 /* WhiskeyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B5C65D731C320CF000BE9BA9 /* WhiskeyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B5C65D621C31E2C600BE9BA9 /* AlcolatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlcolatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5C65D671C31E2C600BE9BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B5C65D681C31E2C600BE9BA9 /* AlcolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlcolatorTests.m; sourceTree = "<group>"; };
+		B5C65D721C320CF000BE9BA9 /* WhiskeyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WhiskeyViewController.h; sourceTree = "<group>"; };
+		B5C65D731C320CF000BE9BA9 /* WhiskeyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WhiskeyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +92,8 @@
 				B5C65D591C31E2C600BE9BA9 /* Images.xcassets */,
 				B5C65D5B1C31E2C600BE9BA9 /* LaunchScreen.xib */,
 				B5C65D4C1C31E2C600BE9BA9 /* Supporting Files */,
+				B5C65D721C320CF000BE9BA9 /* WhiskeyViewController.h */,
+				B5C65D731C320CF000BE9BA9 /* WhiskeyViewController.m */,
 			);
 			path = Alcolator;
 			sourceTree = "<group>";
@@ -220,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C65D551C31E2C600BE9BA9 /* ViewController.m in Sources */,
+				B5C65D741C320CF000BE9BA9 /* WhiskeyViewController.m in Sources */,
 				B5C65D521C31E2C600BE9BA9 /* AppDelegate.m in Sources */,
 				B5C65D4F1C31E2C600BE9BA9 /* main.m in Sources */,
 			);
